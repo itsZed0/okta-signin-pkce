@@ -17,7 +17,6 @@ const config = {
   scopes: ["openid", "profile", "email"],
   pkce: true,
 };
-
 const oktaAuth = new OktaAuth(config);
 const CALLBACK_PATH = "/login/callback";
 
